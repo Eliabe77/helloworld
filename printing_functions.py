@@ -1,3 +1,3 @@
-import printing_models
-printing_models.make_pizza(20, 'blue')
-printing_models.make_pizza(10, 'hibryd', 'diesel', 'extra power')
+import models
+models.make_model(16, 'iron')
+models.make_model(12, 'copper', 'steel', 'extra fusion')
