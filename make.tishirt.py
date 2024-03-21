@@ -1,5 +1,5 @@
-def describe_shirt(Charro_shirt, medium_size):
+def describe_pet(writing, shirtype='Charro'):
  """Display information about a pet."""
- print(f"\nI have a {Charro_shirt}.")
- print(f"My {Charro_shirt}'s name is {medium_size()}.")
- describe_shirt('hamster', 'harry')
+ print(f"\nI have a {shirtype}.")
+ print(f"My {shirtype}'s logo is {writing.title()}.")
+describe_pet(writing='soccer')
