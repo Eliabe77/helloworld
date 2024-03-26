@@ -1,0 +1,7 @@
+digits = (1, 999999)
+x = sum(digits)
+print(x)
+x = min(digits)
+print(x)
+x = max(digits)
+print(x)

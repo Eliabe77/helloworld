@@ -1,6 +1,5 @@
-animals = ['cat', 'dog', 'rabbit']
+animals = ['dog', 'cat', 'rabbit']
 for animal in animals:
- print(animals)
- print(f"{animal.title()}, is a great animal!")
- print(f"I can't wait to see your next {animal.title()}.\n")
- print("Each one of these animals can make you happy!")
+ print(animal)
+ print("Hey everyone, I like it!")
+ print("I really love animal ")
