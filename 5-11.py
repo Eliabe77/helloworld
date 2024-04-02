@@ -9,4 +9,3 @@ for number in numbers:
         print("\n" + str(number) + "rd")
     else:
         print("\n" + str(number) + "th")
- 

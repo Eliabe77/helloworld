@@ -1,2 +1,4 @@
-squares = [value**2 for value in range(1, 10)]
-print(squares)
+cubes = [number**3 for number in range(1,11)]
+
+for cube in cubes:
+    print(cube)
