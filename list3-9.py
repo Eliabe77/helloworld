@@ -70,6 +70,7 @@ print(f"Sorry, {name.title()} there's no room at the table.")
 name = guests[0].title()
 print(f"{name}, please come to dinner.")
 
+
 name = guests[1].title()
 print(f"{name}, please come to dinner.")
 
@@ -80,5 +81,8 @@ del(guests[0])
 # Prove the list is empty.
 print(guests)
 
+x = guests
 len(guests)
+print(x)
+
 print(f"Only {name}, is coming to dinner.")
