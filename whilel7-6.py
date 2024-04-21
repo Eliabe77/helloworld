@@ -2,9 +2,9 @@ prompt = "How old are you?"
 prompt += "\n Thank you for your answer "
 
 c=1
-while c <= 10:
+while c <= 1:
     print("c" + str(c))
-c=c+1
+    c=c+1
 
 age = input(prompt)
     
