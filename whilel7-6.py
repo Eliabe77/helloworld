@@ -1,14 +1,11 @@
 prompt = "How old are you?"
-prompt += "\nEnter 'quit' when you are finished. Thank you for your answer "
-
-age = 0
+prompt += "\n Thank you for your answer "
 
 while True:
     age = input(prompt)
-    if age == 'quit':
-        break
+    
     age = int(age)
-
+    
     if age < 3:
         print("  You get in free!")
     elif age < 13:
@@ -16,7 +13,10 @@ while True:
     else:
         print("  Your ticket is $15.")
     
-    age = 0
+    while age >="0":
+        break
+    
+
     
           
           
